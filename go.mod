@@ -2,7 +2,7 @@ module github.com/barmi/go-admin-themes
 
 go 1.21.5
 
-require github.com/barmi/go-admin v1.3.0
+require github.com/barmi/go-admin v1.3.1
 
 require (
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e // indirect
