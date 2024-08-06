@@ -1,12 +1,12 @@
-module github.com/GoAdminGroup/themes
+module github.com/barmi/go-admin-themes
 
 go 1.21.5
 
-require github.com/GoAdminGroup/go-admin v1.2.26
+require github.com/barmi/go-admin v1.3.0
 
 require (
-	github.com/GoAdminGroup/html v0.0.1 // indirect
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e // indirect
+	github.com/barmi/go-admin-html v0.0.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/syndtr/goleveldb v1.0.0 // indirect
