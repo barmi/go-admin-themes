@@ -1434,7 +1434,7 @@ var TemplateList = map[string]string{"403": `<div class="missing-content">
         <select class="input-sm grid-per-pager" name="per-page">
             {{range $key, $pageSize := .PageSizeList}}
                 <option value="{{$url}}&__pageSize={{$pageSize}}" {{index $option $pageSize}}>
-                    {{$pageSize}} {{lang "条/页"}}
+                    {{$pageSize}} {{lang "개"}}
                 </option>
             {{end}}
         </select>
@@ -2786,7 +2786,7 @@ var TemplateList = map[string]string{"403": `<div class="missing-content">
         <div class="pull-right hidden-xs">
             <b>Theme</b> {{.System.Theme}}&nbsp;&nbsp;
         </div>
-        <strong>Powered by <a href="https://github.com/GoAdminGroup/go-admin">GoAdmin</a>.</strong>
+        <strong>Powered by <a href="https://mag-ux.com">MAG-UX</a>.</strong>
         {{.FooterInfo}}
     </footer>
 {{end}}`, "head": `{{define "head"}}
